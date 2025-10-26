@@ -2,7 +2,7 @@ import "reflect-metadata";
 import express, { Request, Response, NextFunction } from "express";
 import swaggerUi from "swagger-ui-express";
 import { RegisterRoutes } from "./infra/routes/routes.js";
-import swaggerJson from "./src/swagger/swagger.json" assert { type: "json" };
+import swaggerJson from "./infra/swagger/swagger.json" assert { type: "json" };
 
 const app = express();
 app.use(express.json());
