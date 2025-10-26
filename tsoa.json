@@ -1,0 +1,18 @@
+{
+  "entryFile": "app.ts",
+  "noImplicitAdditionalProperties": "throw-on-extras",
+  "controllerPathGlobs": ["src/controller/**/*Controller.ts"],
+  "spec": {
+    "outputDirectory": "src/swagger",
+    "specVersion": 3,
+    "basePath": "/",
+    "schemes": ["http"],
+    "securityDefinitions": {},
+    "specMerging": "recursive"
+  },
+  "routes": {
+    "routesDir": "infra/routes",
+    "middleware": "express",
+    "authenticationModule": null
+  }
+}
