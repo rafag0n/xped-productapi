@@ -1,5 +1,5 @@
 import { eq, count } from "drizzle-orm";
-import { db } from "../lib/drizzle/index.js";
+import { db } from "../../lib/drizzle";
 import { products } from "../model/orm";
 import { ProductRepository } from "./productRepository";
 import { ProductDetails } from "../model/valueObjects/productDetails";

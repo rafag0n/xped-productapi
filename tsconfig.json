@@ -15,5 +15,5 @@
     "allowSyntheticDefaultImports": true,
     "useDefineForClassFields": false
   },
-  "include": ["src/**/*"]
+  "include": ["src/**/*", "lib"]
 }
